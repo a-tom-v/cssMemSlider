@@ -37,6 +37,10 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
+body {
+	background-color: aquamarine;
+}
+
 .wrapper {
 	width: 50vw;
 	height: 100%;
@@ -44,7 +48,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: aquamarine;
+
 }
 
 .container {
@@ -70,6 +74,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .picture {
 	width: 100%;
 	margin-bottom: 1rem;
+	border-radius: 1rem;
 }
 
 
