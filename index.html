@@ -9,34 +9,43 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="slider">
-      <div class="image">
-        <img src="./img/picture-one.jpg" alt="picture-one" class="picture">
-        <p class="text">some text first</p>
-      </div>
-      <div class="image">
-        <img src="./img/picture-two.png" alt="picture-two" class="picture">
-        <p class="text">some text second</p>
-      </div>
-      <div class="image">
-        <img src="./img/picture-three.jpg" alt="picture-three" class="picture">
-        <p class="text">some text third</p>
-      </div>
-      <div class="image">
-        <img src="./img/picture-four.jpg" alt="" class="picture">
-        <p class="text">some text fourth</p>
-      </div>
-      <div class="input">
+    <div class="container">
+      <div class="slider">
         <input type="radio" name="r" class="radio" id="one" checked>
         <input type="radio" name="r" class="radio" id="two">
         <input type="radio" name="r" class="radio" id="three">
         <input type="radio" name="r" class="radio" id="four">
+
+        <div class="image image-one">
+          <img src="./img/picture-one.jpg" alt="picture-one" class="picture">
+          <p class="text">1: some text</p>
+        </div>
+        <div class="image">
+          <img src="./img/picture-two.png" alt="picture-two" class="picture">
+          <p class="text">2: some text</p>
+        </div>
+        <div class="image">
+          <img src="./img/picture-three.jpg" alt="picture-three" class="picture">
+          <p class="text">3: some text</p>
+        </div>
+        <div class="image">
+          <img src="./img/picture-four.jpg" alt="" class="picture">
+          <p class="text">4: some text</p>
+        </div>
       </div>
       <div class="navigation">
-        <label for="one" class="radio-button"></label>
-        <label for="two" class="radio-button"></label>
-        <label for="three" class="radio-button"></label>
-        <label for="four" class="radio-button"></label>
+        <label for="one" class="control">
+          <div class="radio-button"></div>
+        </label>
+        <label for="two" class="control">
+          <div class="radio-button"></div>
+        </label>
+        <label for="three" class="control">
+          <div class="radio-button"></div>
+        </label>
+        <label for="four" class="control">
+          <div class="radio-button"></div>
+        </label>
       </div>
     </div>
   </div>
